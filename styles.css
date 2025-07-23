@@ -86,7 +86,7 @@ nav {
 }
 /* Hero Ends */
 
-/* Plants Section */
+/* Plants Section Starts */
 .plants-Heading-p {
   width: 77%;
   margin: 1rem auto 3.125rem auto;
@@ -121,6 +121,8 @@ nav {
 .Plants-cards img {
   width: 100%;
 }
+/* Plants Section Ends */
+
 @media Screen and (max-width: 432px) {
   /* Header Section starts */
   header {
@@ -150,6 +152,24 @@ nav {
   .hero-text {
     width: 92%;
     margin: 6.6vw auto;
-    /* border: 1px solid #e95a08; */
   }
+  /* Hero Section Ends */
+
+  /* Plants Section Starts */
+  #Plants-Section h1{
+    font-size: 1.5rem;
+  }
+  .plants-Heading-p{
+    font-size: 857rem;
+  }
+  .Plants-Cards-Containen{
+    grid-template-columns: 1fr 1fr;
+  }
+  .cards-p{
+    font-size: 1rem;
+  }
+  .Plants-cards h5 {
+    font-size: 1rem;
+  }
+  /* Plants Section Ends */
 }
