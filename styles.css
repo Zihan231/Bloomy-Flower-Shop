@@ -96,7 +96,7 @@ nav {
 }
 #Plants-Section {
   width: 80%;
-  margin: 12.5vw auto;
+  margin: 12.5vw auto 5.7vw auto;
   text-align: center;
 }
 .Plants-Cards-Containen {
@@ -123,6 +123,40 @@ nav {
 }
 /* Plants Section Ends */
 
+/* Trust Section Starts */
+#Trust-Section {
+  width: 80%;
+  margin: 0 auto;
+}
+.Trust-Section {
+  display: flex;
+  gap: 120px;
+  align-items: center;
+  justify-content: space-between;
+}
+.Trust-Img-Container {
+  z-index: -1;
+}
+.Trust-Badge-Container img {
+  width: 100%;
+}
+.Trust-Badge-Container {
+  width: 25%;
+  margin-left: 380px;
+  margin-bottom: -160px;
+}
+.Trust-Text-Container ul li {
+  color: #00000050;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1.25rem;
+}
+.Trust-Text-Container h1 {
+  font-size: 3.125rem;
+  font-weight: 900;
+  margin-bottom: 1.25rem;
+}
+/* Trust Section Ends */
 @media Screen and (max-width: 432px) {
   /* Header Section starts */
   header {
@@ -142,11 +176,12 @@ nav {
   .hero-image {
     width: 100%;
   }
-  #hero .hero-text h1 , #hero .Highlight{
+  #hero .hero-text h1,
+  #hero .Highlight {
     font-size: 1.5rem;
     font-weight: 700;
   }
-  #hero .hero-text h1{
+  #hero .hero-text h1 {
     width: 60%;
   }
   .hero-text p {
@@ -159,17 +194,17 @@ nav {
   /* Hero Section Ends */
 
   /* Plants Section Starts */
-  #Plants-Section h1{
+  #Plants-Section h1 {
     font-size: 1.5rem;
-    font-weight: 700
+    font-weight: 700;
   }
-  .plants-Heading-p{
+  .plants-Heading-p {
     font-size: 0.857rem;
   }
-  .Plants-Cards-Containen{
+  .Plants-Cards-Containen {
     grid-template-columns: 1fr 1fr;
   }
-  .cards-p{
+  .cards-p {
     font-size: 1rem;
   }
   .Plants-cards h5 {
