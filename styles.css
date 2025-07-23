@@ -142,9 +142,12 @@ nav {
   .hero-image {
     width: 100%;
   }
-  .hero-text h1 {
+  #hero .hero-text h1 , #hero .Highlight{
     font-size: 1.5rem;
     font-weight: 700;
+  }
+  #hero .hero-text h1{
+    width: 60%;
   }
   .hero-text p {
     font-size: 0.875rem;
@@ -158,9 +161,10 @@ nav {
   /* Plants Section Starts */
   #Plants-Section h1{
     font-size: 1.5rem;
+    font-weight: 700
   }
   .plants-Heading-p{
-    font-size: 857rem;
+    font-size: 0.857rem;
   }
   .Plants-Cards-Containen{
     grid-template-columns: 1fr 1fr;
