@@ -26,6 +26,18 @@ p {
 .Highlight {
   color: #e95a08;
 }
+.btn {
+  background-color: #e95a08;
+  padding: 26px 50px;
+  border: none;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+}
 /* Common Style Ends */
 header {
   /* border: red solid 1px; */
@@ -73,6 +85,42 @@ nav {
   display: block;
 }
 /* Hero Ends */
+
+/* Plants Section */
+.plants-Heading-p {
+  width: 77%;
+  margin: 1rem auto 3.125rem auto;
+}
+#Plants-Section h1 {
+  font-size: 3.125rem;
+}
+#Plants-Section {
+  width: 80%;
+  margin: 12.5vw auto;
+  text-align: center;
+}
+.Plants-Cards-Containen {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 30px;
+  column-gap: 20px;
+}
+.Plants-cards h5 {
+  margin-bottom: 30px;
+  font-weight: 900;
+  font-family: "inter", sans-serif;
+  font-size: 1.357rem;
+}
+.cards-p {
+  color: black;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 1.357rem;
+}
+.Plants-cards img {
+  width: 100%;
+}
 @media Screen and (max-width: 432px) {
   /* Header Section starts */
   header {
