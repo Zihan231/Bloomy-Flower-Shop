@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+/* Common Style Starts */
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Noto Serif", serif;
+}
+p {
+  font-family: "Inter", sans-serif;
+  color: #00000050;
+}
+.Bold {
+  font-weight: 700;
+}
+.navcolor {
+  color: #8987a1;
+}
+.Highlight {
+  color: #e95a08;
+}
+/* Common Style Ends */
+header {
+  /* border: red solid 1px; */
+  width: 80%;
+  margin: 30px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a span i {
+  margin-right: 10px;
+}
+nav a {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  color: #252432;
+  font-size: 1rem;
+}
+nav {
+  display: flex;
+  gap: 48px;
+}
+/* Hero Section Starts */
+#hero {
+  /* border: 1px solid red; */
+  width: 80%;
+  margin: 12.5vw auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+#hero h1 {
+  font-size: 4.06rem;
+}
+.hero-text p{
+    font-size: 1.375rem;
+}
+.hero-text,
+.hero-image {
+  width: 50%;
+}
+.hero-image img{
+  width: 100%;
+  display: block;
+}
+/* Hero Ends */
+@media Screen and (max-width: 432px) {
+    /* Header Section starts */
+  header {
+    width: 95%;
+    margin-top: 13px;
+  }
+  .Hidden {
+    display: none;
+  }
+  /* Header Section Ends */
+    /* Hero Section Starts */
+    #hero {
+    flex-direction: column-reverse;
+    width: 100%;
+    }
+    .hero-image{
+        width: 100%;
+    }
+    .hero-text h1{
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    .hero-text p{
+        font-size: 0.875rem;
+    }
+    .hero-text{
+        width: 100%;
+        padding: 6.6vw 3.8vw;
+    }
+    
+
+}
