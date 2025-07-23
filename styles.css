@@ -61,20 +61,20 @@ nav {
 #hero h1 {
   font-size: 4.06rem;
 }
-.hero-text p{
-    font-size: 1.375rem;
+.hero-text p {
+  font-size: 1.375rem;
 }
 .hero-text,
 .hero-image {
   width: 50%;
 }
-.hero-image img{
+.hero-image img {
   width: 100%;
   display: block;
 }
 /* Hero Ends */
 @media Screen and (max-width: 432px) {
-    /* Header Section starts */
+  /* Header Section starts */
   header {
     width: 95%;
     margin-top: 13px;
@@ -83,25 +83,25 @@ nav {
     display: none;
   }
   /* Header Section Ends */
-    /* Hero Section Starts */
-    #hero {
+
+  /* Hero Section Starts */
+  #hero {
     flex-direction: column-reverse;
     width: 100%;
-    }
-    .hero-image{
-        width: 100%;
-    }
-    .hero-text h1{
-        font-size: 1.5rem;
-        font-weight: 700;
-    }
-    .hero-text p{
-        font-size: 0.875rem;
-    }
-    .hero-text{
-        width: 100%;
-        padding: 6.6vw 3.8vw;
-    }
-    
-
+  }
+  .hero-image {
+    width: 100%;
+  }
+  .hero-text h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .hero-text p {
+    font-size: 0.875rem;
+  }
+  .hero-text {
+    width: 92%;
+    margin: 6.6vw auto;
+    /* border: 1px solid #e95a08; */
+  }
 }
