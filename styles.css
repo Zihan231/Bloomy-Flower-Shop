@@ -38,6 +38,11 @@ p {
   font-size: 1rem;
   font-weight: 600;
 }
+.btn:hover {
+  background-color: #d85a08;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  transition: all 0.1s ease-in-out;
+}
 /* Common Style Ends */
 header {
   /* border: red solid 1px; */
@@ -283,6 +288,11 @@ nav {
   font-family: "Inter", sans-serif;
   font-weight: 600;
 }
+.btn-Subscribe:hover {
+  background-color: #d85a08;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  transition: all 0.1s ease-in-out;
+}
 input[type="email"] {
   width: 100%;
   padding: 8px 20px;
@@ -320,7 +330,6 @@ footer {
   display: flex;
   gap: 50px;
   justify-content: space-between;
-  
 }
 .footer-Social-Icons img {
   width: 36px;
@@ -492,5 +501,9 @@ footer {
   }
   .footer-Icon-container{
     width: 100%;
+  }
+  .btn{
+    padding: 15px 30px;
+    font-size: 1rem;
   }
 }
