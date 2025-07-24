@@ -246,6 +246,57 @@ nav {
   width: 100%;
 }
 /* Latest Deal Section Ends */
+/* Join Section Starts */
+.Join-Section h1 {
+  font-size: 3.125rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: white;
+}
+.join-section-content{
+  width: 50%;
+  display:  flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Join-Section form{
+  display: flex;
+  width: 100%;
+}
+.Join-Section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("./Img/news-letter-bg.png");
+  background-size: cover;
+  height: 533px;
+  margin-bottom: 200px;
+}
+.btn-Subscribe{
+  background-color: #e95a08;
+  padding: 8px 20px;
+  border: none;
+  color: #ffffff;
+  font-size: 1.25rem;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+input[type="email"] {
+  width: 100%;
+  padding: 8px 20px;
+  border: none;
+  font-size: 1.25rem;
+  font-family: "Inter", sans-serif;
+}
+input[type="email"]::placeholder {
+  color: #00000050;
+  font-size: 1rem;
+}
+
+/* Join Section Ends */
 @media Screen and (max-width: 432px) {
   /* Header Section starts */
   header {
@@ -380,4 +431,20 @@ nav {
   }
   /* Latest Deal Section Ends */
 
+  /* Join Section Ends */
+  .Join-Section{
+    height: 275px;
+
+  }
+  .join-section-content{
+    width: 90%;
+  }
+  .join-section-content h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: white;
+  }
+
+  /* Join Section Ends */
 }
